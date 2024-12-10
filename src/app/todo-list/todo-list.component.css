@@ -1,0 +1,46 @@
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.add-todo {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-todo input {
+  flex: 1;
+  padding: 5px;
+}
+
+.add-todo button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-list li.completed span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-list button {
+  background: none;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
